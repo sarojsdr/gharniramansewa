@@ -18,6 +18,10 @@ class AdminTableSeeder extends Seeder
             'name' => 'Admin',
             'email' => 'admin@ecom.com',
             'password' => bcrypt('admin@123'),
+            'image' => 'default.png',
+            'phone' => '9815310063',
+            'role_id' => 1,
+            'status' => 1
         ]);
 
     }
